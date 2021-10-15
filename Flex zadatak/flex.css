@@ -1,0 +1,56 @@
+.main{
+    display: flex;
+    flex-flow: wrap row;/*Prvi property u flex-flow je flex-wrap da li da se wrap elementi oko prvog elementa, drugi je da li po kolonama ili redovima treba da se ide */
+    align-items: stretch; /*nacin na koji se rasporedjuju elementi u odnosu na poziciju po x-osi*/
+    justify-content: flex-end;  /*pozicioniranje u odnosu na main content(parent)*/
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    height: 100px;
+}
+.div1{
+    background-color: aqua;
+    width: 150px;
+    flex: 4 3 auto; /*flex-grow flex-shring i flex-basis objedinjeni u propery flex*/
+}
+.div2{
+    background-color: aquamarine;
+    width: 160px;
+    flex: 4 3 auto;
+    order: 3;
+}
+.div3{
+    background-color: olivedrab;
+    flex: 4 3 auto;
+    width: 230px;
+}
+.div4{
+    background-color: blue;
+    flex: 4 3 auto;
+    width: 170px;
+}
+.div5{
+    background-color: chartreuse;
+    flex: 4 3 auto;
+    width: 180px;
+}
+.div6{
+    background-color: darkcyan;
+    flex: 4 3 auto;
+    width: 190px;
+}
+.div7{
+    background-color: darksalmon;
+    flex: 4 3 auto;
+    width: 200px;
+}
+.div8{
+    background-color: gold;
+    flex: 4 3 auto;
+    width: 210px;
+}
+.div9{
+    background-color: rgb(112, 27, 27);
+    flex: 4 3 auto;
+    width: 230px;
+}
