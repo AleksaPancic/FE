@@ -1,0 +1,13 @@
+.main{
+    display: flex;
+    flex-flow: wrap column;
+}
+
+.col1,.col2,.col3,.col4{
+    width: 1920px;
+    height: 600px;
+    top: -111px;
+}
+.col3{
+    background: #245852;
+}
